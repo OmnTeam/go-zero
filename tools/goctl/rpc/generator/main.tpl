@@ -3,7 +3,7 @@ package main
 import (
     "context"
 	"fmt"
-	"gitee.com/unitedrhino/core/pkg/interceptors"
+	"github.com/OmnTeam/SaaS/pkg/interceptors"
 
 	{{.imports}}
 
@@ -11,7 +11,7 @@ import (
 	"github.com/zeromicro/go-zero/zrpc"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
-	"gitee.com/unitedrhino/core/pkg/utils"
+	"github.com/OmnTeam/SaaS/pkg/utils"
 )
 
 

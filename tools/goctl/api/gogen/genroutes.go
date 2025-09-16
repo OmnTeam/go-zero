@@ -27,7 +27,7 @@ const (
 package handler
 
 import (
-	ws "gitee.com/unitedrhino/core/pkg/websocket"
+	ws "github.com/OmnTeam/SaaS/pkg/websocket"
 	"net/http"{{if .hasTimeout}}
 	"time"{{end}}
 

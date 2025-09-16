@@ -5,7 +5,7 @@ import (
 	"flag"
 	"fmt"
 	_ "github.com/zeromicro/go-zero/core/proc" //开启pprof采集 https://mp.weixin.qq.com/s/yYFM3YyBbOia3qah3eRVQA
-	"gitee.com/unitedrhino/core/pkg/utils"
+	"github.com/OmnTeam/SaaS/pkg/utils"
 	"github.com/zeromicro/go-zero/core/logx"
 	{{.importPackages}}
 )

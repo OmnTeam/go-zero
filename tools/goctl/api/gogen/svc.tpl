@@ -2,7 +2,7 @@ package svc
 
 import (
 	{{.configImport}}
-	"gitee.com/unitedrhino/core/pkg/ctxs"
+	"github.com/OmnTeam/SaaS/pkg/ctxs"
 	"github.com/zeromicro/go-zero/rest"
 )
 

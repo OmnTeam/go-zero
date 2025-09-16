@@ -2,8 +2,8 @@ package {{.PkgName}}
 
 import (
 	"net/http"
-	{{if .HasRequest}}"gitee.com/unitedrhino/core/pkg/errors"{{end}}
-    "gitee.com/unitedrhino/core/pkg/result"
+	{{if .HasRequest}}"github.com/OmnTeam/SaaS/pkg/errors"{{end}}
+    "github.com/OmnTeam/SaaS/pkg/result"
 	{{if .HasRequest}}"github.com/zeromicro/go-zero/rest/httpx"{{end}}
 	{{.ImportPackages}}
 )
