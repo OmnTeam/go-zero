@@ -1,6 +1,6 @@
 module github.com/zeromicro/go-zero/tools/goctl
 
-go 1.22.7
+go 1.23
 
 toolchain go1.23.3
 
@@ -22,7 +22,7 @@ require (
 	github.com/zeromicro/go-zero v1.7.2
 	golang.org/x/text v0.21.0
 	google.golang.org/grpc v1.68.1
-	google.golang.org/protobuf v1.36.4
+	google.golang.org/protobuf v1.36.9
 	gopkg.in/yaml.v2 v2.4.0
 )
 
