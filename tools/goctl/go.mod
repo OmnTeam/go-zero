@@ -1,6 +1,6 @@
 module github.com/zeromicro/go-zero/tools/goctl
 
-go 1.22.7
+go 1.23
 
 toolchain go1.23.3
 
@@ -22,7 +22,7 @@ require (
 	github.com/zeromicro/go-zero v1.7.2
 	golang.org/x/text v0.21.0
 	google.golang.org/grpc v1.68.1
-	google.golang.org/protobuf v1.36.4
+	google.golang.org/protobuf v1.36.10
 	gopkg.in/yaml.v2 v2.4.0
 )
 
@@ -51,7 +51,7 @@ require (
 	github.com/golang/mock v1.7.0-rc.1 // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/google/gnostic-models v0.6.8 // indirect
-	github.com/google/go-cmp v0.6.0 // indirect
+	github.com/google/go-cmp v0.7.0 // indirect
 	github.com/google/gofuzz v1.2.0 // indirect
 	github.com/google/pprof v0.0.0-20230207041349-798e818bf904 // indirect
 	github.com/google/uuid v1.6.0 // indirect
